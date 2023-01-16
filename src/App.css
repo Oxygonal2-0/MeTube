@@ -1,0 +1,76 @@
+.loginDiv{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeDiv{
+  height: 100vh;
+  overflow-y: scroll;
+  position: absolute;
+}
+
+.navbar{
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  background-color: black;
+}
+
+.drawer{
+  display: flex;
+  align-items: center;
+}
+
+.remaining{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mainPage{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.movieTitle{
+  color: whitesmoke;
+  font-size: 14;
+  font-weight: bold;
+  font-family: Roboto, Arial, sans-serif;
+  padding-bottom: 10;
+}
+
+.movieViews{
+  color: whitesmoke;
+  font-size: smaller;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+.watchMain{
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-right: 50px;
+}
